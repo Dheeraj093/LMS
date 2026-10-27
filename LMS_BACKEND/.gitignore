@@ -1,0 +1,85 @@
+# Help files
+HELP.md
+
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Keep target folders inside source directories if needed
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java compiled files
+*.class
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Spring Boot configuration with secrets
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# STS / Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Gradle (if applicable)
+.gradle/
+build/
+
+# Keep build folders inside source directories if needed
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# Coverage reports
+coverage/
+.jacoco/
+*.exec
